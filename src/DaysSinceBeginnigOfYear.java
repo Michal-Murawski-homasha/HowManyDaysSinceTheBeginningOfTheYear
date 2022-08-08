@@ -5,10 +5,10 @@ public class DaysSinceBeginnigOfYear {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter the month number: ");
         int i = in.nextInt();
-        NumberOfDaysInAMonth(i);
+        numberOfDaysInAMonth(i);
     }
 
-    private static void NumberOfDaysInAMonth(int i) {
+    private static void numberOfDaysInAMonth(int i) {
         int a = 31, b = 28, c = 30;
         switch (i) {
             case 1:
