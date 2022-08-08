@@ -18,34 +18,34 @@ public class DaysSinceBeginnigOfYear {
                 System.out.println("The number of days in month number " + i + " is " + (a + b));
                 break;
             case 3:
-                System.out.println("The number of days in month number " + i + " is " + (a + b + a));
+                System.out.println("The number of days in month number " + i + " is " + ((2 * a) + b));
                 break;
             case 4:
-                System.out.println("The number of days in month number " + i + " is " + (a + b + a + c));
+                System.out.println("The number of days in month number " + i + " is " + ((2 * a) + b + c));
                 break;
             case 5:
-                System.out.println("The number of days in month number " + i + " is " + (a + b + a + c + a));
+                System.out.println("The number of days in month number " + i + " is " + ((3 * a) + b + c));
                 break;
             case 6:
-                System.out.println("The number of days in month number " + i + " is " + (a + b + a + c + a + c));
+                System.out.println("The number of days in month number " + i + " is " + ((3 * a) + b + (2 * c)));
                 break;
             case 7:
-                System.out.println("The number of days in month number " + i + " is " + (a + b + a + c + a + c + a));
+                System.out.println("The number of days in month number " + i + " is " + ((4 * a) + b + (2 * c)));
                 break;
             case 8:
-                System.out.println("The number of days in month number " + i + " is " + (a + b + a + c + a + c + a + a));
+                System.out.println("The number of days in month number " + i + " is " + ((5 * a) + b + (2 * c)));
                 break;
             case 9:
-                System.out.println("The number of days in month number " + i + " is " + (a + b + a + c + a + c + a + a + c));
+                System.out.println("The number of days in month number " + i + " is " + ((5 * a) + b + (3 * c)));
                 break;
             case 10:
-                System.out.println("The number of days in month number " + i + " is " + (a + b + a + c + a + c + a + a + c + a));
+                System.out.println("The number of days in month number " + i + " is " + ((6 * a) + b + (3 * c)));
                 break;
             case 11:
-                System.out.println("The number of days in month number " + i + " is " + (a + b + a + c + a + c + a + a + c + a + c));
+                System.out.println("The number of days in month number " + i + " is " + ((6 * a) + b + (4 * c)));
                 break;
             case 12:
-                System.out.println("The number of days in month number " + i + " is " + (a + b + a + c + a + c + a + a + c + a + c + a));
+                System.out.println("The number of days in month number " + i + " is " + ((7 * a) + b + (4 * c)));
                 break;
             default:
                 System.out.println("No such number of the month!");
